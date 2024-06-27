@@ -9,7 +9,7 @@ public class Main {
 
         System.out.println("\nTask #2");
         String os = "ios";
-        int osYear = 2023;
+        int osYear = 2024;
         checkClientOsAndYear(os, osYear);
 
         System.out.println("\nTask #3.");
@@ -38,7 +38,8 @@ public class Main {
     }
 
     public static void checkClientOsAndYear(String os, int year) {
-        int currentYear = Year.now().getValue();
+        //int currentYear = Year.now().getValue();
+        int currentYear = 2015;
         if (os.equalsIgnoreCase("ios")) {
             os = "iOS";
         } else {
@@ -64,4 +65,6 @@ public class Main {
         }
         return days;
     }
+
+
 }
