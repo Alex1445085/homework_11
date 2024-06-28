@@ -1,5 +1,3 @@
-import java.time.Year;
-
 public class Main {
 
     public static void main(String[] args) {
@@ -38,7 +36,6 @@ public class Main {
     }
 
     public static void checkClientOsAndYear(String os, int year) {
-        //int currentYear = Year.now().getValue();
         int currentYear = 2015;
         if (os.equalsIgnoreCase("ios")) {
             os = "iOS";
@@ -65,6 +62,4 @@ public class Main {
         }
         return days;
     }
-
-
 }
